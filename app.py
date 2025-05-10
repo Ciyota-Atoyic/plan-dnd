@@ -184,7 +184,9 @@ Cité sculptée dans la lumière, siège du dieu des elfes.
 #### • Torrent d'Arborescence
 Cascade de magie pure qui nourrit le plan.
 - **Usage :** Rituels ancestraux, créations artistiques divines
-""")st.markdown("## ⚙️ Mécanus – Rouages de la Loi Parfaite (Loyal Neutre)")
+""")
+    
+    st.markdown("## ⚙️ Mécanus – Rouages de la Loi Parfaite (Loyal Neutre)")
     st.markdown("""
 Mécanus est un plan constitué de **rouages mécaniques géants**, chacun abritant une civilisation ou un royaume. Chaque rouage tourne lentement et en harmonie avec les autres.
 
