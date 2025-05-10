@@ -5,6 +5,12 @@ st.set_page_config(page_title="Plans d'existence D&D", page_icon="🌌", layout=
 
 st.title("🌌 Plans d'existence - Donjons & Dragons")
 
+st.image(
+    "https://www.aidedd.org/dnd/images/plans.jpg",
+    caption="Illustration de la cosmologie des plans - Source : aidedd.org",
+    use_column_width=True
+)
+
 with st.expander("🟢 Plan Matériel"):
     st.markdown("""
 **Description** : Le monde physique où vivent la plupart des créatures. On y trouve Faerûn, Eberron, etc.  
