@@ -85,103 +85,193 @@ Domaine souterrain de tunnels et cavernes immenses. Parfois traversé de cristau
 **Habitants :** dao, xorn, golems.
 """)
 
-with st.expander("🌟 Plans Extérieurs"):
-    st.markdown("### 🔥 Baator – Les Neuf Enfers (Loyal Mauvais)")
+with st.expander("🌟 Plans Extérieurs (Détaillés)"):
+
+    st.markdown("## 🔥 Baator – Les Neuf Enfers (Loyal Mauvais)")
     st.markdown("""
-Un plan infernal structuré en **neuf strates**, chacune dirigée par un archidiable. Baator est un royaume de lois cruelles, où les contrats sont plus tranchants que les lames.
+Baator est un plan rigide et impitoyable divisé en **neuf couches**, chacune dirigée par un archidiable et régie par des lois tyranniques.
 
-- **Gouverné par :** Asmodéus, Seigneur des Neuf Enfers
-- **Strates célèbres :** Avernus (champ de bataille), Dis (forteresse de fer), Nessus (trône d’Asmodéus)
-- **Habitants :** Diables, erinyes, légions infernales
-- **Particularité :** Les pactes occultes y prennent forme
+### 1. Avernus
+Champ de bataille éternel contre les démons. Cieux rouges, pluies de sang, rivières de feu. Gouvernée par Zariel.
+- **Usage :** Front de la Guerre Sanglante
+- **Effets :** Brouillage magique, hostilité permanente
 
-**Lore :** C’est ici que de nombreux Tieffelins trouvent leurs origines infernales.
+### 2. Dis
+Cité-labyrinthe de fer ardent. Dominée par Dispater. Pièges, illusions et bureaucratie infernale.
+- **Usage :** Prison mentale et politique
+- **Danger :** Perte d’identité par paperasse
+
+### 3. Minauros
+Marais fétide et puant. Gouverné par Mammon. Boue acide et infrastructures instables.
+- **Effets :** Affaiblissement, maladies, pourriture
+
+### 4. Phlégethos
+Océan de lave flamboyante, domaine de Belial et Fierna. Lieu de plaisir cruel et d’excès flamboyant.
+- **Habitat :** Palaces de feu et douleur
+
+### 5. Stygia
+Océan glacé avec épaves et ruines figées dans la glace. Dirigé par Levistus (emprisonné sous la glace).
+- **Effets :** Tempêtes magiques, isolement psychique
+
+### 6. Malbolge
+Montagne effondrée en éternelle reconstruction. Gouvernée par Glasya. Tortures architecturales.
+- **Dynamique :** Ruines, tunnels, instabilité physique et politique
+
+### 7. Maladomini
+Ruines de villes abandonnées, constructions jamais terminées. Gouvernée par Baalzebul.
+- **Thème :** Déchéance, vanité, orgueil sans fin
+
+### 8. Cania
+Froid extrême, murs de glace noire. Contrôlée par Mephistopheles. Laboratoire de magie noire et de manipulation planaires.
+- **Effets :** Congélation instantanée sans magie de protection
+
+### 9. Nessus
+Abysses infernaux où trône Asmodéus. Forteresse impénétrable. Pouvoir absolu.
+- **Lieux :** Malsheem (capitale), archives infernales
 """)
 
-    st.markdown("### ⚖️ Mont Céleste – Celestia (Loyal Bon)")
+    st.markdown("## ⚖️ Mont Céleste – Celestia (Loyal Bon)")
     st.markdown("""
-Un plan en forme de montagne gigantesque aux **sept cieux superposés**. Refuge des âmes justes, des anges et des champions de la justice.
+Un plan en forme de montagne aux **sept strates célestes**. Chaque couche représente une montée vers la pureté divine.
 
-- **Aspect :** Pureté, lumière, harmonie hiérarchisée
-- **Habitants :** Archons, anges, âmes élevées
-- **Lieux sacrés :** Empyrée, fontaines de guérison, portails de pénitence
+### 1. Lunia – Mer d'Argent
+Côte argentée, où les âmes arrivent. Protégée par des anges et archons.
+- **Portails :** Connexion au Plan Astral
 
-**Usage en jeu :** Terre d’épreuves pour les paladins et clercs cherchant la rédemption.
+### 2. Mercuria – Champ des Héros
+Plaine dorée et temples glorieux. Lieu de justice, où reposent les champions du Bien.
+- **Habitants :** Héros ressuscités, clercs honorés
+
+### 3. Venya – Vallée de Compassion
+Collines paisibles, terres fertiles. Harmonie entre la bonté et l’ordre.
+- **Divinités :** Chauntea, Yondalla
+
+### 4. Solania – Montagnes de Révélation
+Sommets argentés, monastères célestes. Recherche de sagesse divine.
+- **Habitants :** Moines célestes, esprits contemplatifs
+
+### 5. Mertion – Ville de la Rédemption
+Cité brillante, salles de guérison, confession céleste.
+- **Usage :** Pèlerinage d’âmes blessées
+
+### 6. Jovar – Royaume des Anges
+Cité d’or, justice parfaite. Tribunal divin, légions de lumière.
+- **Lieu de :** Jugement des plans
+
+### 7. Chronias – L’Illumination Pure
+Noyau sacré. Inaccessible aux mortels. L’âme y est absorbée dans la perfection.
+- **Effet :** Dissolution dans le divin
 """)
 
-    st.markdown("### 🌿 Arvandor – Plan des Elfes (Chaotique Bon)")
+    st.markdown("## 🌿 Arvandor – Royaume Elfique (Chaotique Bon)")
     st.markdown("""
-Forêt infinie où l’art, la liberté et la beauté dominent. Domaine de **Corellon Larethian**, dieu des elfes.
+Arvandor est le domaine de **Corellon Larethian** et des divinités elfiques. Ce plan forestier et éternel évolue selon la nature et les mythes.
 
-- **Paysage :** Nature luxuriante, magie sauvage, féerie constante
-- **Habitants :** Elfes divins, dryades, esprits sylvestres
-- **Effets :** Favorise la créativité et la spontanéité
+### Domaines majeurs :
 
-**Lien :** Accessible via le Feywild ou les rituels elfiques anciens.
+#### • Forêt Céleste
+Une canopée d’arbres millénaires, maisons suspendues dans les cieux.
+- **Effets :** Régénération magique, communion avec la nature
+
+#### • Clairières Étoilées
+Cercles de danse féerique où les fées et dryades festoient.
+- **Événement :** Transes prophétiques
+
+#### • Palais de Corellon
+Cité sculptée dans la lumière, siège du dieu des elfes.
+- **Habitants :** Divinités : Sehanine, Labelas Enoreth, Erevan Ilesere
+
+#### • Torrent d'Arborescence
+Cascade de magie pure qui nourrit le plan.
+- **Usage :** Rituels ancestraux, créations artistiques divines
+""")st.markdown("## ⚙️ Mécanus – Rouages de la Loi Parfaite (Loyal Neutre)")
+    st.markdown("""
+Mécanus est un plan constitué de **rouages mécaniques géants**, chacun abritant une civilisation ou un royaume. Chaque rouage tourne lentement et en harmonie avec les autres.
+
+### 12 Royaumes Notables :
+
+- **Regulus** : Capitale des modrons, siège de Primus, l'entité suprême de la Loi.
+- **Nemausus** : Ancien domaine elfique, aujourd’hui stabilisé par la Loi.
+- **The Clockwork City** : Citadelle humaine de philosophes et d’horlogers.
+- **Metron** : Haut lieu des décisions interplanaires neutres.
+- **Colyphyr** : Marché juridico-magique.
+- **Dural** : Forteresse des juristes extraplanaires.
+- **Xeraph** : Monastère dédié au temps cyclique.
+- **Cognis** : Centre de calculs divins.
+- **Axis Terminus** : Point zéro du mouvement planaire.
+- **Volach** : Rouage scellé aux lois inconnues.
+- **Verity** : Refuge pour les entités véridiques.
+- **Zenith** : Sommet logique absolu (lieu théorique)
+
+**Spécificité :** Le temps y est strictement mesuré, et l’erreur y est punie par l’exil.
+
 """)
 
-    st.markdown("### ⚙️ Mécanus – Plan de la Loi Parfaite (Loyal Neutre)")
+    st.markdown("## ⚫ Outreterre – Sigil et les 3 Couronnes (Neutre Pur)")
     st.markdown("""
-Rouages titanesques qui tournent sans fin dans le vide. Chaque engrenage est un monde, où tout est prédéfini par l’ordre universel.
+Au centre de la Grande Roue se trouve **Sigil**, la Cité des Portes, suspendue en hauteur, régie par la Dame des Douleurs.
 
-- **Habitants :** Modrons, légions juridiques, entités logiques
-- **Rythme :** Aucun hasard, tout est prévu
-- **Dieux présents :** Helm, Saint Cuthbert
+### Les 3 Niveaux symboliques de l’Outreterre :
 
-**Effets magiques :** Les sorts chaotiques sont affaiblis ici.
+- **La Couronne Inférieure** : Quartiers pauvres, temples déchus, portails instables. Refuge des fuyards planaires.
+- **La Couronne Médiane** : Zone commerciale, cosmopolite, foire aux portails, auberges extraplanaires.
+- **La Couronne Supérieure** : Sphères philosophiques, demeures extraplanaires, refuges des factions.
+
+**Note :** Chaque couronne influence la stabilité magique des portails qu’elle contient.
+
 """)
 
-    st.markdown("### 🌪️ Limbe – Le Chaos Primordial (Chaotique Neutre)")
+    st.markdown("## 🌊 Champs Élysées – Demeure de l’Harmonie Parfaite (Neutre Bon)")
     st.markdown("""
-Un océan de matière brute et informe, façonné uniquement par l’esprit de ceux qui y voyagent. C’est le plan de la pensée créatrice... ou destructrice.
+Un plan d’équilibre paisible, divisé en **quatre strates** toutes baignées d’une lumière dorée.
 
-- **Habitants :** Slaads, githzerai, élémentaires fous
-- **Danger :** Forme instable, mutation spontanée
-- **Utilité :** Terrain d'entraînement mental des moines githzerai
+### 1. Amoria
+Champs ouverts, cieux dégagés, lieux de chasse divine et de sérénité communautaire.
 
-**Note :** Certaines citadelles sont figées grâce à la force de volonté collective.
+### 2. Eronia
+Montagnes paisibles et vallées florissantes. Guérison naturelle, inspiration poétique.
+
+### 3. Belierin
+Forêts épaisses et lacs sacrés. Silence, méditation, communion avec la nature.
+
+### 4. Thalasia
+Océan cristallin, barques d’âmes flottantes. Repos éternel. Cité engloutie d’Erathaol.
+
+**Spécial :** Plus on s’enfonce dans les strates, plus l’âme se libère des souffrances mortelles.
+
 """)
 
-    st.markdown("### ⚫ Outreterre – Sigil et ses Portes (Neutre Pur)")
+    st.markdown("## 🌳 Abysses – L'Arbre Monde, la Sève du Chaos")
     st.markdown("""
-Au centre de la Grande Roue se trouve **Sigil**, la Cité des Portes, suspendue dans une coquille en forme d’anneau. Gouvernée par la mystérieuse Dame des Douleurs.
+Les Abysses sont un gouffre infini en spirale, traversé par **l'Arbre Monde (Yggdrasil démoniaque)**. Ses racines percent les strates et ses branches propagent la corruption.
 
-- **Accès :** Portails vers tous les autres plans
-- **Population :** Cosmopolite : diables, anges, mortels…
-- **Particularité :** Neutralité forcée – pas de dieux autorisés
+- **Origine :** Née du premier meurtre céleste, l’Arbre Monde porte la sève noire du chaos.
+- **Strates traversées :**
+  - 88e : **Fungus Infernal** de Zuggtmoy, champignon géant fusionné à l’arbre
+  - 113e : **Nécropole d’Orcus**, branches mortes et moelles des morts
+  - 222e : **Forêt Fractale** de Demogorgon, feuillage psychotique
+  - Autres : Vortex larvaire, Gouleplan, Marais de sang
 
-**Usage :** Base parfaite pour une campagne planaire.
+**Danger :** Suivre une branche trop loin peut vous faire chuter dans une strate plus profonde sans retour possible.
+
 """)
 
-    st.markdown("### 🌊 Champs Élysées – Plan de Paix Absolue (Neutre Bon)")
+    st.markdown("## ⚫ Géhenne – Les 4 Strates de la Balance Pentée (Neutre Mauvais)")
     st.markdown("""
-Royaume de nature parfaite, où repos et harmonie sont éternels. C’est le plan de l’oubli heureux.
+La Géhenne est un plan volcanique, chaque strate étant une montagne suspendue dans le vide et inclinée à un angle extrême.
 
-- **Ambiance :** Douce, lente, paisible
-- **Habitants :** Esprits en paix, licornes, bêtes mythiques
-- **Danger :** Rester trop longtemps mène à l’apathie éternelle
+### 1. Khalas
+Rivières de soufre, torrents ardents, temples corrompus des yugoloths. Lieu d’invocations et de négociations sombres.
 
-**Utilisation :** Refuge ultime pour les âmes blessées ou repentantes.
-""")
+### 2. Chamada
+Flammes explosives, failles déchirantes, grands marchés noirs extraplanaires.
 
-    st.markdown("### 🔥 Abysses – Le Chaos Démoniaque (Chaotique Mauvais)")
-    st.markdown("""
-Un gouffre infini aux strates illimitées. Chaque couche est une horreur unique. Le domaine incontesté des démons.
+### 3. Mungoth
+Terres de cendres, vent empoisonné, refuge de pactes oubliés. Demeures des traîtres et renégats planaires.
 
-- **Strates notables :** 88e (Zuggtmoy), 113e (Orcus), 222e (Demogorgon)
-- **Habitants :** Balors, succubes, larves
-- **Règle :** Aucun. Survie, domination, destruction
+### 4. Krangath
+Strate morte, sans feu ni chaleur, dominée par le silence et les ruines. Sanctuaire des yugoloths anciens.
 
-**Danger ultime :** Aucune logique, aucune limite.
-""")
+**Spécificité :** Chacune des strates exige un effort constant pour ne pas glisser vers la damnation.
 
-    st.markdown("### ⚫ Gehenne – Plan de l’Équilibre Incliné (Neutre Mauvais)")
-    st.markdown("""
-Plan de volcans en équilibre sur des pentes impossibles. Lieu de souffrance silencieuse et de secret.
-
-- **Population :** Yugoloths, âmes punies, monstres neutres
-- **Climat :** Souffre, pénombre, vents coupants
-- **Objectif :** Échange, espionnage, torture philosophique
-
-**Particularité :** Chaque action a un prix mesuré.
 """)
