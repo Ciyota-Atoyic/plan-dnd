@@ -85,7 +85,7 @@ Domaine souterrain de tunnels et cavernes immenses. Parfois traversé de cristau
 **Habitants :** dao, xorn, golems.
 """)
 
-with st.expander("🌟 Plans Extérieurs (Détaillés)"):
+with st.expander("🌟 Plans Extérieurs"):
 
     st.markdown("## 🔥 Baator – Les Neuf Enfers (Loyal Mauvais)")
     st.markdown("""
@@ -184,9 +184,97 @@ Cité sculptée dans la lumière, siège du dieu des elfes.
 #### • Torrent d'Arborescence
 Cascade de magie pure qui nourrit le plan.
 - **Usage :** Rituels ancestraux, créations artistiques divines
+""")st.markdown("## ⚙️ Mécanus – Rouages de la Loi Parfaite (Loyal Neutre)")
+    st.markdown("""
+Mécanus est un plan constitué de **rouages mécaniques géants**, chacun abritant une civilisation ou un royaume. Chaque rouage tourne lentement et en harmonie avec les autres.
+
+### 12 Royaumes Notables :
+
+- **Regulus** : Capitale des modrons, siège de Primus, l'entité suprême de la Loi.
+- **Nemausus** : Ancien domaine elfique, aujourd’hui stabilisé par la Loi.
+- **The Clockwork City** : Citadelle humaine de philosophes et d’horlogers.
+- **Metron** : Haut lieu des décisions interplanaires neutres.
+- **Colyphyr** : Marché juridico-magique.
+- **Dural** : Forteresse des juristes extraplanaires.
+- **Xeraph** : Monastère dédié au temps cyclique.
+- **Cognis** : Centre de calculs divins.
+- **Axis Terminus** : Point zéro du mouvement planaire.
+- **Volach** : Rouage scellé aux lois inconnues.
+- **Verity** : Refuge pour les entités véridiques.
+- **Zenith** : Sommet logique absolu (lieu théorique)
+
+**Spécificité :** Le temps y est strictement mesuré, et l’erreur y est punie par l’exil.
+
 """)
-    
-st.markdown("## ⚙️ Mécanus – Rouages de la Loi Parfaite (Loyal Neutre)")
+
+    st.markdown("## ⚫ Outreterre – Sigil et les 3 Couronnes (Neutre Pur)")
+    st.markdown("""
+Au centre de la Grande Roue se trouve **Sigil**, la Cité des Portes, suspendue en hauteur, régie par la Dame des Douleurs.
+
+### Les 3 Niveaux symboliques de l’Outreterre :
+
+- **La Couronne Inférieure** : Quartiers pauvres, temples déchus, portails instables. Refuge des fuyards planaires.
+- **La Couronne Médiane** : Zone commerciale, cosmopolite, foire aux portails, auberges extraplanaires.
+- **La Couronne Supérieure** : Sphères philosophiques, demeures extraplanaires, refuges des factions.
+
+**Note :** Chaque couronne influence la stabilité magique des portails qu’elle contient.
+
+""")
+
+    st.markdown("## 🌊 Champs Élysées – Demeure de l’Harmonie Parfaite (Neutre Bon)")
+    st.markdown("""
+Un plan d’équilibre paisible, divisé en **quatre strates** toutes baignées d’une lumière dorée.
+
+### 1. Amoria
+Champs ouverts, cieux dégagés, lieux de chasse divine et de sérénité communautaire.
+
+### 2. Eronia
+Montagnes paisibles et vallées florissantes. Guérison naturelle, inspiration poétique.
+
+### 3. Belierin
+Forêts épaisses et lacs sacrés. Silence, méditation, communion avec la nature.
+
+### 4. Thalasia
+Océan cristallin, barques d’âmes flottantes. Repos éternel. Cité engloutie d’Erathaol.
+
+**Spécial :** Plus on s’enfonce dans les strates, plus l’âme se libère des souffrances mortelles.
+
+""")
+
+    st.markdown("## 🌳 Abysses – L'Arbre Monde, la Sève du Chaos")
+    st.markdown("""
+Les Abysses sont un gouffre infini en spirale, traversé par **l'Arbre Monde (Yggdrasil démoniaque)**. Ses racines percent les strates et ses branches propagent la corruption.
+
+- **Origine :** Née du premier meurtre céleste, l’Arbre Monde porte la sève noire du chaos.
+- **Strates traversées :**
+  - 88e : **Fungus Infernal** de Zuggtmoy, champignon géant fusionné à l’arbre
+  - 113e : **Nécropole d’Orcus**, branches mortes et moelles des morts
+  - 222e : **Forêt Fractale** de Demogorgon, feuillage psychotique
+  - Autres : Vortex larvaire, Gouleplan, Marais de sang
+
+**Danger :** Suivre une branche trop loin peut vous faire chuter dans une strate plus profonde sans retour possible.
+
+""")
+
+    st.markdown("## ⚫ Géhenne – Les 4 Strates de la Balance Pentée (Neutre Mauvais)")
+    st.markdown("""
+La Géhenne est un plan volcanique, chaque strate étant une montagne suspendue dans le vide et inclinée à un angle extrême.
+
+### 1. Khalas
+Rivières de soufre, torrents ardents, temples corrompus des yugoloths. Lieu d’invocations et de négociations sombres.
+
+### 2. Chamada
+Flammes explosives, failles déchirantes, grands marchés noirs extraplanaires.
+
+### 3. Mungoth
+Terres de cendres, vent empoisonné, refuge de pactes oubliés. Demeures des traîtres et renégats planaires.
+
+### 4. Krangath
+Strate morte, sans feu ni chaleur, dominée par le silence et les ruines. Sanctuaire des yugoloths anciens.
+
+**Spécificité :** Chacune des strates exige un effort constant pour ne pas glisser vers la damnation.
+
+""")st.markdown("## ⚙️ Mécanus – Rouages de la Loi Parfaite (Loyal Neutre)")
     st.markdown("""
 Mécanus est un plan constitué de **rouages mécaniques géants**, chacun abritant une civilisation ou un royaume. Chaque rouage tourne lentement et en harmonie avec les autres.
 
