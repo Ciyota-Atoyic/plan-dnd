@@ -1,4 +1,5 @@
 
+
 import streamlit as st
 
 st.set_page_config(page_title="Plans d'existence D&D", page_icon="🌌", layout="centered")
@@ -10,16 +11,20 @@ st.image(
     use_container_width=True
 )
 
-tabs = st.tabs([
-    "Plan Matériel",
-    "Plans Parallèles",
-    "Plans Transitifs",
-    "Plans Élémentaires",
-    "Plans Extérieurs"
-])
+choix = st.radio(
+    "Choisissez une catégorie de plans :",
+    [
+        "Plan Matériel",
+        "Plans Parallèles",
+        "Plans Transitifs",
+        "Plans Élémentaires",
+        "Plans Extérieurs"
+    ]
+)
 
 
-with tabs[0]: aidedd.org",
+
+if choix == "Plan Matériel": aidedd.org",
     use_container_width=True
 )
 
@@ -33,7 +38,7 @@ Le Plan Matériel est le centre du multivers, le monde "réel" où vivent les mo
 
 
 
-with tabs[1]::
+elif choix == "Plans Parallèles"::
     st.markdown("### ✨ Feywild (Plan Féérique)")
     st.markdown("""
 Reflet vibrant et magique du Plan Matériel. Lieu de nature luxuriante, de saisons imprévisibles et de puissants êtres féeriques (archifées, dryades...).
@@ -52,7 +57,7 @@ Reflet sombre et morne du monde matériel. Énergie nécrotique, désespoir ambi
 
 
 
-with tabs[2]::
+elif choix == "Plans Transitifs"::
     st.markdown("### 🌫️ Plan Éthéré")
     st.markdown("""
 Superposé au Plan Matériel, permet de voir sans être vu. Fréquenté par fantômes et voyageurs planaires.
@@ -71,7 +76,7 @@ Vaste mer argentée reliant les autres plans. Suspendu dans le temps, il sert de
 
 
 
-with tabs[3]::
+elif choix == "Plans Élémentaires"::
     st.markdown("### 🌬️ Plan de l’Air")
     st.markdown("""
 Un royaume infini de cieux, de vents violents et d’îles flottantes. Djinns et créatures volantes y vivent.
@@ -106,7 +111,7 @@ Domaine souterrain de tunnels et cavernes immenses. Parfois traversé de cristau
 
 
 
-with tabs[4]:
+elif choix == "Plans Extérieurs":
  (Détaillés)"):
 
     st.markdown("## 🔥 Baator – Les Neuf Enfers (Loyal Mauvais)")
