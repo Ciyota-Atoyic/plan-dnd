@@ -86,53 +86,102 @@ Domaine souterrain de tunnels et cavernes immenses. Parfois traversé de cristau
 """)
 
 with st.expander("🌟 Plans Extérieurs"):
-    st.markdown("### ⚖️ Mont Céleste (Loyal Bon)")
+    st.markdown("### 🔥 Baator – Les Neuf Enfers (Loyal Mauvais)")
     st.markdown("""
-Montagne infinie d’élévation morale et spirituelle. Ordre, bonté, justice.
+Un plan infernal structuré en **neuf strates**, chacune dirigée par un archidiable. Baator est un royaume de lois cruelles, où les contrats sont plus tranchants que les lames.
 
-**Habitants :** anges, archons.  
-**Lieu sacré :** serments, pèlerinages, rédemption.
+- **Gouverné par :** Asmodéus, Seigneur des Neuf Enfers
+- **Strates célèbres :** Avernus (champ de bataille), Dis (forteresse de fer), Nessus (trône d’Asmodéus)
+- **Habitants :** Diables, erinyes, légions infernales
+- **Particularité :** Les pactes occultes y prennent forme
+
+**Lore :** C’est ici que de nombreux Tieffelins trouvent leurs origines infernales.
 """)
 
-    st.markdown("### 🌿 Arvandor (Chaotique Bon)")
+    st.markdown("### ⚖️ Mont Céleste – Celestia (Loyal Bon)")
     st.markdown("""
-Domaine des dieux elfes, forêt éternelle et sauvage. Liberté, art et beauté.
+Un plan en forme de montagne gigantesque aux **sept cieux superposés**. Refuge des âmes justes, des anges et des champions de la justice.
 
-**Habitants :** dieux elfes, esprits sylvestres.
+- **Aspect :** Pureté, lumière, harmonie hiérarchisée
+- **Habitants :** Archons, anges, âmes élevées
+- **Lieux sacrés :** Empyrée, fontaines de guérison, portails de pénitence
+
+**Usage en jeu :** Terre d’épreuves pour les paladins et clercs cherchant la rédemption.
 """)
 
-    st.markdown("### 🔥 Abysses (Chaotique Mauvais)")
+    st.markdown("### 🌿 Arvandor – Plan des Elfes (Chaotique Bon)")
     st.markdown("""
-Plans en spirale de chaos pur. Chaque couche est différente. Demeure des démons.
+Forêt infinie où l’art, la liberté et la beauté dominent. Domaine de **Corellon Larethian**, dieu des elfes.
 
-**Effets :** mutation, anarchie totale.  
-**Habitants :** Démogorgon, Orcus, Juiblex…
+- **Paysage :** Nature luxuriante, magie sauvage, féerie constante
+- **Habitants :** Elfes divins, dryades, esprits sylvestres
+- **Effets :** Favorise la créativité et la spontanéité
+
+**Lien :** Accessible via le Feywild ou les rituels elfiques anciens.
 """)
 
-    st.markdown("### 🧊 Baator / Neuf Enfers (Loyal Mauvais)")
+    st.markdown("### ⚙️ Mécanus – Plan de la Loi Parfaite (Loyal Neutre)")
     st.markdown("""
-Neuf niveaux de tyrannie infernale. Bureaucratie démoniaque. Pactes, trahisons, domination.
+Rouages titanesques qui tournent sans fin dans le vide. Chaque engrenage est un monde, où tout est prédéfini par l’ordre universel.
 
-**Habitants :** Asmodéus, diables majeurs.
+- **Habitants :** Modrons, légions juridiques, entités logiques
+- **Rythme :** Aucun hasard, tout est prévu
+- **Dieux présents :** Helm, Saint Cuthbert
+
+**Effets magiques :** Les sorts chaotiques sont affaiblis ici.
 """)
 
-    st.markdown("### ⚙️ Mécanus (Loyal Neutre)")
+    st.markdown("### 🌪️ Limbe – Le Chaos Primordial (Chaotique Neutre)")
     st.markdown("""
-Rouages géants qui régissent la loi universelle. Tout y est calculé, logique absolue.
+Un océan de matière brute et informe, façonné uniquement par l’esprit de ceux qui y voyagent. C’est le plan de la pensée créatrice... ou destructrice.
 
-**Habitants :** Modrons, constructeurs divins.
+- **Habitants :** Slaads, githzerai, élémentaires fous
+- **Danger :** Forme instable, mutation spontanée
+- **Utilité :** Terrain d'entraînement mental des moines githzerai
+
+**Note :** Certaines citadelles sont figées grâce à la force de volonté collective.
 """)
 
-    st.markdown("### 🌪️ Limbe (Chaotique Neutre)")
+    st.markdown("### ⚫ Outreterre – Sigil et ses Portes (Neutre Pur)")
     st.markdown("""
-Champ de pure entropie. Seules les volontés fortes y façonnent la réalité.
+Au centre de la Grande Roue se trouve **Sigil**, la Cité des Portes, suspendue dans une coquille en forme d’anneau. Gouvernée par la mystérieuse Dame des Douleurs.
 
-**Habitants :** slaads, githzerai.
+- **Accès :** Portails vers tous les autres plans
+- **Population :** Cosmopolite : diables, anges, mortels…
+- **Particularité :** Neutralité forcée – pas de dieux autorisés
+
+**Usage :** Base parfaite pour une campagne planaire.
 """)
 
-    st.markdown("### ⚫ Outreterre (Neutre Pur)")
+    st.markdown("### 🌊 Champs Élysées – Plan de Paix Absolue (Neutre Bon)")
     st.markdown("""
-Ville infinie au centre de tous les plans : Sigil. Gouvernée par la Dame des Douleurs.
+Royaume de nature parfaite, où repos et harmonie sont éternels. C’est le plan de l’oubli heureux.
 
-**Particularité :** portails vers tous les autres plans.
+- **Ambiance :** Douce, lente, paisible
+- **Habitants :** Esprits en paix, licornes, bêtes mythiques
+- **Danger :** Rester trop longtemps mène à l’apathie éternelle
+
+**Utilisation :** Refuge ultime pour les âmes blessées ou repentantes.
+""")
+
+    st.markdown("### 🔥 Abysses – Le Chaos Démoniaque (Chaotique Mauvais)")
+    st.markdown("""
+Un gouffre infini aux strates illimitées. Chaque couche est une horreur unique. Le domaine incontesté des démons.
+
+- **Strates notables :** 88e (Zuggtmoy), 113e (Orcus), 222e (Demogorgon)
+- **Habitants :** Balors, succubes, larves
+- **Règle :** Aucun. Survie, domination, destruction
+
+**Danger ultime :** Aucune logique, aucune limite.
+""")
+
+    st.markdown("### ⚫ Gehenne – Plan de l’Équilibre Incliné (Neutre Mauvais)")
+    st.markdown("""
+Plan de volcans en équilibre sur des pentes impossibles. Lieu de souffrance silencieuse et de secret.
+
+- **Population :** Yugoloths, âmes punies, monstres neutres
+- **Climat :** Souffre, pénombre, vents coupants
+- **Objectif :** Échange, espionnage, torture philosophique
+
+**Particularité :** Chaque action a un prix mesuré.
 """)
