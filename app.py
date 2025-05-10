@@ -1,4 +1,3 @@
-
 import streamlit as st
 
 st.set_page_config(page_title="Plans d'existence D&D", page_icon="🌌", layout="centered")
@@ -24,7 +23,7 @@ with st.expander("🔮 Plans Parallèles"):
 **Gisombre (Shadowfell)** : Monde d'ombre, de mort et de désespoir.
 """)
 
-with st.expander("🔁 Plans Transitifs"):
+with st.expander("🔁 Plans Transitis"):
     st.markdown("""
 **Plan Éthéré** : Superposé au monde physique, utilisé pour l’invisibilité ou le voyage dimensionnel.  
 **Plan Astral** : Vide intemporel entre les mondes, souvent emprunté par les puissants lanceurs de sorts.
