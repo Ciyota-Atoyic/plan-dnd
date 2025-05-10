@@ -8,7 +8,7 @@ st.title("🌌 Plans d'existence - Donjons & Dragons")
 st.image(
     "https://www.aidedd.org/dnd/images/plans.jpg",
     caption="Illustration de la cosmologie des plans - Source : aidedd.org",
-    use_column_width=True
+    use_container_width=True
 )
 
 with st.expander("🟢 Plan Matériel"):
