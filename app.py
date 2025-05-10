@@ -5,7 +5,7 @@ st.set_page_config(page_title="Plans d'existence D&D", page_icon="🌌", layout=
 st.title("🌌 Plans d'existence - Donjons & Dragons")
 
 st.image(
-    "https://www.aidedd.org/dnd/images/plans.jpg",
+    "plans.jpg",
     caption="Illustration de la cosmologie des plans - Source : aidedd.org",
     use_container_width=True
 )
